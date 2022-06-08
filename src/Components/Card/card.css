@@ -1,0 +1,28 @@
+.bg-gray-950 {
+    background-color: #fafafa;
+  }
+  
+  .bg-gradient-red-green {
+    background: linear-gradient(45deg, #4cad9e, #b34b4b);
+    color: #fff;
+  }
+  
+  .img-overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .img-overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000000, #dc4425);
+    opacity: 0.3;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: rgba(33, 66, 99, 0.8);
+  }
