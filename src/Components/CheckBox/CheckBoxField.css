@@ -1,0 +1,33 @@
+label {
+    cursor: pointer; 
+  }
+  
+  .form-check + label + .hidden-input {
+    display: none; 
+  }
+  
+  .form-check:checked + label + .hidden-input {
+    display: block;
+  }
+  
+  .link {
+    text-decoration: underline;
+  }
+
+  /* Very simple styling to the button */
+.searchbtn {
+    background-color: #BBD74E;
+    padding: 10px;
+    border: solid 5px #597927;
+ }
+ 
+ /* Class hiding dropdown text area */
+ .dropdownSearch {
+     display: none;
+     position: absolute;
+ }
+ 
+ /* Class showing dropdown text area */
+ .show {
+   display:block;
+ }

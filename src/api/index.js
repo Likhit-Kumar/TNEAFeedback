@@ -11,3 +11,4 @@ API.interceptors.request.use((req) => {
 })
 
 export const fetchData = (users) => API.post('/users', users)
+export const postComment = (postId, formData) => API.post(`/users/comment/${postId}`, {formData})
