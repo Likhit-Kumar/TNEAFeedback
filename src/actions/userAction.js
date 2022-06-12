@@ -4,9 +4,9 @@ import { END_LOADING, FETCH_USER, START_LOADING } from "../constants/actionTypes
 export const getUserData = id => async (dispatch) => {
     try {
         dispatch({ type: START_LOADING })
-        console.log(id);
+        // console.log(id);
         const data = await api.fetchData(id)
-        console.log(data);
+        // console.log(data);
 
         dispatch({ type: FETCH_USER, payload: data.data.users });
     } catch(err) {
@@ -15,3 +15,4 @@ export const getUserData = id => async (dispatch) => {
 
     }
 }
+
